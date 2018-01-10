@@ -23,6 +23,33 @@
 					"enableStaging": false,
 					"cloudDataMovementUnits": 0
 				}
+			},
+			{
+				"name": "Pig1",
+				"type": "HDInsightPig",
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 20
+				}
+			},
+			{
+				"name": "Pig2",
+				"type": "HDInsightPig",
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 20
+				}
+			},
+			{
+				"name": "MapReduce1",
+				"type": "HDInsightMapReduce",
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 20
+				}
 			}
 		]
 	}
