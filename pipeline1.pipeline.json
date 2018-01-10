@@ -1,3 +1,29 @@
 {
-	"name": "e6d746e7-5316-438a-9968-2dfc66038775"
+	"name": "e6d746e7-5316-438a-9968-2dfc66038775",
+	"properties": {
+		"activities": [
+			{
+				"name": "Spark1",
+				"type": "HDInsightSpark",
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 20
+				}
+			},
+			{
+				"name": "Copy1",
+				"type": "Copy",
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 20
+				},
+				"typeProperties": {
+					"enableStaging": false,
+					"cloudDataMovementUnits": 0
+				}
+			}
+		]
+	}
 }
