@@ -1,0 +1,15 @@
+{
+	"name": "8e51bc39-d64b-436b-bf76-76aef8c98952",
+	"properties": {
+		"type": "AmazonS3Object",
+		"typeProperties": {
+			"format": {
+				"type": "TextFormat",
+				"columnDelimiter": ",",
+				"nullValue": "\\N",
+				"treatEmptyAsNull": false,
+				"firstRowAsHeader": false
+			}
+		}
+	}
+}
