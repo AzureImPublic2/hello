@@ -1,3 +1,16 @@
 {
-	"name": "b6757561-dd46-4df4-b000-17a5d74f66d4"
+	"name": "b6757561-dd46-4df4-b000-17a5d74f66d4",
+	"properties": {
+		"activities": [
+			{
+				"name": "Pig1",
+				"type": "HDInsightPig",
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 20
+				}
+			}
+		]
+	}
 }
